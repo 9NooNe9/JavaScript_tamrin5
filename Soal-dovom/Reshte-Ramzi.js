@@ -2,6 +2,8 @@ function Scripting(stringLength, repeat, string) {
     let string1 = '';
     let string2 = '';
 
+    //            finding common bugs
+
     if (stringLength < 1 || stringLength > 100 || typeof (stringLength) !== "number") {
         return `length of the string must be between 1 and 100`
     }
